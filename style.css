@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.raleway-font{
+    font-family: "Raleway", sans-serif;
+}
+/* header style */
+.header{
+    background-image: url(Assets/Hero-bg.png);
+    height: 45vh;
+}
+.margin{
+    width: 90%;
+    margin: 0 auto;
+    /* margin-left: 140px;
+    margin-right: 140px; */
+}
+.h-nav{
+    display: flex;
+    justify-content: space-between;
+    color: #4E47FF;
+}
+.button{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    }
+    .button:hover{
+        background-color: #04AA6D;
+        color: white;
+    }
+    .banner{
+        text-align: center;
+    }
+  /* Action Section  style */
+.action{
+    display: flex;
+    gap: 220px;
+    justify-content: space-around;
+    margin-top: 116px;
+    margin-bottom: 116;
+}
+.action-img{
+    width: 300px;
+}
+.action-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.action-content{
+    color: #58585b;
+}
+
+/*  Users Section */
+
+.all-user-data{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.user-data h2 {
+    font-weight: 800;
+    font-size: 50px;
+    color: #4E47FF;
+}
+.user-data p{
+    color: #58585b;
+}
+.user-container{
+    padding: 30px;
+    border-radius: 20px;
+    background-color:#E4E7FD;
+}
+.user-head{
+    text-align: center;
+}
+.user-section{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+/*  user-review */
+.review-hed{
+    text-align: center;
+}
+.user-rating{
+    display:flex;
+    gap: 25px;
+}
+.review-user-img{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.review-card{
+    padding: 15px;
+    background-color: white;
+    border: 2px solid rgba(201, 207, 213, 0.782);
+    border-radius: 20px;
+}
+.user-img{
+    border-radius: 50%;
+}
+.review-p{
+    display: inline-block;
+    color:#58585b;
+    width: 870px;
+    height: 570px;
+}
