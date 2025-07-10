@@ -144,7 +144,8 @@
 /* input section */
 .input-contaner{
     display: flex;
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    border-radius: 30px;
     padding: 60px;
     gap: 40px;
     background-color: rgb(244, 244, 242);
@@ -164,8 +165,27 @@
     font-size:60px;
 }
 
+/* footer style */
 
 
+.logo{
+    color: #4E47FF;
+    font-size:80px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+}
+.footer-link {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #58585b;
+}
 
 
 
