@@ -121,8 +121,8 @@
 
 .up-comming{
     display: flex;
-    flex-direction: column;
     text-align: center;
+    flex-direction: column;
     background-color: #E4E7FD;
     padding: 50px;
     border-radius: 40px;
