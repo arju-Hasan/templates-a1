@@ -116,3 +116,34 @@
     width: 870px;
     height: 570px;
 }
+
+/* up-comming Section */
+
+.up-comming{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E4E7FD;
+    padding: 50px;
+    border-radius: 40px;
+    width: 90%;
+    margin-top: 50px;
+}
+.up-comming-hed{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.up-comming-img{
+    border-radius: 40px;
+}
+.up-img-card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
