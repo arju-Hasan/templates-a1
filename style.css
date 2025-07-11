@@ -95,17 +95,23 @@
     gap: 25px;
 }
 .review-user-img{
-    width: 70px;
-    height: 70px;
+    /* width: 70px;
+    height: 70px; */
+
     display: flex;
     gap: 20px;
     box-sizing: border-box;
+}
+.review-user-img img{
+    width: 70px;
+    height: 70px;
 }
 .review-card{
     padding: 15px;
     background-color: white;
     border: 2px solid rgba(201, 207, 213, 0.782);
     border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .user-img{
     border-radius: 50%;
@@ -113,8 +119,10 @@
 .review-p{
     display: inline-block;
     color:#58585b;
-    width: 870px;
-    height: 570px;
+    padding: 10px;
+   
+    /* width: 870px;
+    height: 570px; */
 }
 
 /* up-comming Section */
@@ -158,6 +166,22 @@
     border-radius: 20px;
     /* font-size: 20px; */
 }
+.input-content input{
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.input-content textarea{
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.input-content input::placeholder{
+    font-size: 18px;
+}
+.input-content textarea::placeholder{
+    font-size: 18px;
+}
+
 .input-hed{
     color: black;
     width: 870px;
