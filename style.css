@@ -97,7 +97,6 @@
 .review-user-img{
     /* width: 70px;
     height: 70px; */
-
     display: flex;
     gap: 20px;
     box-sizing: border-box;
@@ -120,9 +119,11 @@
     display: inline-block;
     color:#58585b;
     padding: 10px;
-   
     /* width: 870px;
     height: 570px; */
+}
+.Date{
+    color: #8c5b5b;
 }
 
 /* up-comming Section */
