@@ -118,12 +118,14 @@
 .review-p{
     display: inline-block;
     color:#58585b;
+    font-weight: bolder;
     padding: 10px;
     /* width: 870px;
     height: 570px; */
 }
 .Date{
     color: #8c5b5b;
+    font-weight:300;
 }
 
 /* up-comming Section */
